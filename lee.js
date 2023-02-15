@@ -83,3 +83,7 @@
 
 
     //PARTE DE LO DE GULP ESTA EN EL INDEX DE FESTIVAL MUSICA, MIRA AHI UWU
+
+
+    //GITHUB BASICO
+        //https://www.youtube.com/watch?v=44ziZ12rJwU&ab_channel=Developeando
