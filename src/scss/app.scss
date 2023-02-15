@@ -1,0 +1,14 @@
+//formas de llamar una variable al archivo principal
+//vieja:
+//  @import'base/variables';
+//  @import'contenido/contenido';
+
+//nueva, tienes que tener un index.scss y ahi poner @forward'nombre de archivo' y asi por cada carpeta y por cada archivo un forward(dentro del index), asi como se puede ver, aca solo escribes, también tienes que escribir un use en cada archivo si quieres utilizar una variable exterior (@use'nombre carpeta/nombre archivo' as v;) y cuando la vas a usar poner el nombre del archivo . y el nombre de la función(excepto los index) o puedes poner en el use un as y lo q quieras ya asi solo poner lo q hayas puesto. y la variable
+@use'base';
+@use'layout';
+
+//@import importa a todos use solo a donde lo llames
+
+//para hacer que el gulp detecte los cambios de todos los archivos sin actualizar aca debes escribirlo asi
+//src('src/scss/**/*.scss
+//osea que se va a fijar en todas las carpetas y todos los archivos con esa extension
